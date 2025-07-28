@@ -27,6 +27,8 @@ int main() {
     int guessed_number;
     // Print the random number
     //printf("Random number between 1 and 100: %d\n", random_number);
+    printf("Welcome to the Number Guessing Game!\n");
+    printf("I have picked a number between 1 and 100. Can you guess it?\n\n");
     
     do
     {
