@@ -2,6 +2,21 @@
 #include <stdlib.h>
 #include <time.h>
 
+void displayAmazingOutcome() {
+    printf("\n");
+    printf("**************************************************\n");
+    printf("* *\n");
+    printf("* _   _   _   _   _   _   _   _   _   _   _    *\n");
+    printf("* / \\ / \\ / \\ / \\ / \\ / \\ / \\ / \\ / \\ / \\ / \\   *\n");
+    printf("* ( C | O | N | G | R | A | T | S | ! | ! | ! )  *\n");
+    printf("* \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/   *\n");
+    printf("* *\n");
+    printf("* Y O U   G U E S S E D   I T !        *\n");
+    printf("* *\n");
+    printf("**************************************************\n");
+    printf("\n");
+}
+
 int main() {
     // Seed the random number generator with the current time
     srand(time(0));
@@ -12,31 +27,7 @@ int main() {
     int guessed_number;
     // Print the random number
     //printf("Random number between 1 and 100: %d\n", random_number);
-    void displayAmazingOutcome() {
-    printf("\n");
-    custom_sleep(200);
-    printf("**************************************************\n");
-    custom_sleep(200);
-    printf("* *\n");
-    custom_sleep(200);
-    printf("* _   _   _   _   _   _   _   _   _   _   _    *\n");
-    custom_sleep(200);
-    printf("* / \\ / \\ / \\ / \\ / \\ / \\ / \\ / \\ / \\ / \\ / \\   *\n");
-    custom_sleep(200);
-    printf("* ( C | O | N | G | R | A | T | S | ! | ! | ! )  *\n");
-    custom_sleep(200);
-    printf("* \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/   *\n");
-    custom_sleep(200);
-    printf("* *\n");
-    custom_sleep(200);
-    printf("* Y O U   G U E S S E D   I T !        *\n");
-    custom_sleep(200);
-    printf("* *\n");
-    custom_sleep(200);
-    printf("**************************************************\n");
-    custom_sleep(500);
-    printf("\n");
-}
+    
     do
     {
         printf("guess the number");
