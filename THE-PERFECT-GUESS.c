@@ -35,9 +35,9 @@ int main() {
         printf("guess the number");
         scanf("%d",&guessed_number);
         if(guessed_number>random_number){
-            printf("lower number please!!\n");
+            printf("Too high! Try a lower number.\n");
         }else if(guessed_number<random_number){
-            printf("higher number please!!\n");
+            printf("Too low! Try a higher number.\n");
         }else{
             displayAmazingOutcome();
         }
